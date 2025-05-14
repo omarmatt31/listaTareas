@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es" data-bs-theme="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="El usuario puede generar una lista de tareas">
+    <meta name="author" content="Omar Mattos">
+    <meta name="keywords" content="genración, lista tarea">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"/>
+    <title>Lista de Tareas</title>
+</head>
+<body>
+    <head></head>
+    <main>
+        <section class="container my-5 w-50 bg-body-tertiary  rounded-5 d-flex flex-column align-items-center">
+            <h1 class="text-center fw-light my-4">Lista de Tareas</h1>
+            <div class="input-group mb-3 w-50">
+                <input type="text" class="form-control" placeholder="" aria-label="Recipient’s username" aria-describedby="button-addon2">
+                <button class="btn btn-info" type="button" id="button-addon2">Agregar Tarea</button>
+            </div>
+            <ol class="list-group list-group-numbered">
+                <li class="list-group-item d-flex justify-content-between  align-items-center">
+                    <div class="ms-2 me-auto">
+                        Content for list item  asdasdlasdlñkasñld
+                    </div>
+                    <button class="btn btn-outline-danger" type="button" id="button-addon2"><i class="bi bi-trash3"></i></button>
+                </li>
+            </ol>
+        </section>
+    </main>
+    <footer>
+        <div class="container text-center">
+            <p class="mb-0">&copy; Todos los derechos reservados <br> Omar Mattos 💻</p>
+          </div>
+    </footer>
+    <script src="./js/app.js"></script>
+</body>
+</html>
