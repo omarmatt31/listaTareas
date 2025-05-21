@@ -12,8 +12,9 @@ const agregarTarea = (e) =>{
     formAgregar.reset()
 }
 
-const eliminarTarea = () =>{
-    console.log("Elimina una tarea")
+const eliminarTarea = (e) =>{
+    const tareaEliminar = e.target.closest('li')
+    tareaEliminar.remove()
 }
 
 const formAgregar = document.getElementById('tareaForm')
